@@ -43,7 +43,7 @@ public class Grafo {
         for (Vertice v : adjacencias.keySet()) {
             System.out.println("Aeroporto " + v.getNome() + " conecta-se a:");
             for (Aresta a : adjacencias.get(v)) {
-                System.out.println("   → " + a.getDestino().getNome() + " (" + a.getPeso() + " km)");
+                System.out.println(" --> " + a.getDestino().getNome() + " (" + a.getPeso() + " km)");
             }
             System.out.println();
         }
